@@ -7,25 +7,25 @@ const featuresData = [
   {
     id: "1",
     image: "/images/task-management-app/feature-icon1.png", // Recommended image size 150x130
-    title: "Task Organization & Prioritization",
+    title: "Custom Web Design",
     shortText:
-      "One of the key features of a task management app is its ability to help you organize and prioritize your tasks effectively. You can create tasks, assign due dates",
+      "We create unique, visually stunning websites tailored to your brand identity. Every design is crafted from scratch to ensure your business stands out from the competition.",
     aosDelay: "100",
   },
   {
     id: "2",
     image: "/images/task-management-app/feature-icon2.png", // Recommended image size 150x130
-    title: "Collaboration & Teamwork",
+    title: "Responsive Development",
     shortText:
-      "One of the key features of a task management app is its ability to help you organize and prioritize your tasks effectively. You can create tasks, assign due dates",
+      "Your website will look perfect on every device. We build mobile-first, responsive sites that provide seamless user experiences across smartphones, tablets, and desktops.",
     aosDelay: "200",
   },
   {
     id: "3",
     image: "/images/task-management-app/feature-icon3.png", // Recommended image size 150x130
-    title: "Reminders & Notifications",
+    title: "SEO Optimization",
     shortText:
-      "One of the key features of a task management app is its ability to help you organize and prioritize your tasks effectively. You can create tasks, assign due dates",
+      "Get found online with our built-in SEO best practices. We optimize your website structure, content, and performance to help you rank higher in search engine results.",
     aosDelay: "300",
   },
 ];

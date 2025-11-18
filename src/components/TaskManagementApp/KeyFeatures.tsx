@@ -7,41 +7,41 @@ const featuresData = [
   {
     id: "1",
     icon: "flaticon-task",
-    title: "Task Planning",
+    title: "Modern UI/UX Design",
     shortText:
-      "Effective task management starts with appropriate planning. Depending on the budget, resources, scope, and timeline; efficient task planning requires",
+      "Beautiful, intuitive interfaces that users love. We create engaging designs that combine aesthetics with functionality for exceptional user experiences.",
     aosDelay: "100",
   },
   {
     id: "2",
     icon: "flaticon-planning",
-    title: "Task Scheduling",
+    title: "Performance Optimization",
     shortText:
-      "Effective task management starts with appropriate planning. Depending on the budget, resources, scope, and timeline; efficient task planning requires",
+      "Lightning-fast load times and smooth interactions. We optimize every aspect of your website for speed, ensuring visitors stay engaged and conversions increase.",
     aosDelay: "200",
   },
   {
     id: "3",
     icon: "flaticon-refresh",
-    title: "Recurring Tasks",
+    title: "Content Management",
     shortText:
-      "Effective task management starts with appropriate planning. Depending on the budget, resources, scope, and timeline; efficient task planning requires",
+      "Easy-to-use CMS solutions that put you in control. Update your content, images, and pages without technical knowledge or developer assistance.",
     aosDelay: "300",
   },
   {
     id: "4",
     icon: "flaticon-completed-task",
-    title: "Task Tracking",
+    title: "E-Commerce Solutions",
     shortText:
-      "Effective task management starts with appropriate planning. Depending on the budget, resources, scope, and timeline; efficient task planning requires",
+      "Complete online store functionality with secure payments, inventory management, and seamless checkout experiences that drive sales.",
     aosDelay: "400",
   },
   {
     id: "5",
     icon: "flaticon-time-tracking",
-    title: "Time Tracking",
+    title: "Analytics Integration",
     shortText:
-      "Effective task management starts with appropriate planning. Depending on the budget, resources, scope, and timeline; efficient task planning requires",
+      "Track your success with built-in analytics. Monitor visitor behavior, conversion rates, and key metrics to make data-driven decisions.",
     aosDelay: "500",
   },
   {
@@ -49,7 +49,7 @@ const featuresData = [
     icon: "flaticon-third-party",
     title: "Third-Party Integrations",
     shortText:
-      "Effective task management starts with appropriate planning. Depending on the budget, resources, scope, and timeline; efficient task planning requires",
+      "Seamlessly connect with your favorite tools and services. From CRMs to payment processors, we integrate everything your business needs.",
     aosDelay: "600",
   },
 ];
@@ -70,8 +70,7 @@ const KeyFeatures: React.FC = () => {
               Key Features
             </h6>
             <h2 className="text-[28px] md:text-[36px] leading-[36px] md:leading-[45px]">
-              A great Task Management App is the ability to customize your
-              workflow
+              Everything You Need to Build a Powerful Online Presence
             </h2>
           </div>
 
@@ -110,7 +109,7 @@ const KeyFeatures: React.FC = () => {
               href="/features"
               className="py-[15px] px-[30px] inline-block rounded-[6px] bg-primary-color text-white font-semibold text-[16px] md:text-[18px] transition duration-500 ease-in-out hover:bg-black-color"
             >
-              See All Features
+              Explore All Services
             </Link>
           </div>
         </div>

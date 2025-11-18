@@ -10,23 +10,23 @@ const benefitsData = [
   {
     id: "1",
     icon: "flaticon-check-mark",
-    title: "Enhanced Organization",
+    title: "Increase Conversions",
     shortText:
-      "A task management application provides a centralized platform to organize and track all your tasks in one place.",
+      "Professional, user-friendly websites convert more visitors into customers. Our designs guide users naturally toward taking action.",
   },
   {
     id: "2",
     icon: "flaticon-check-mark",
-    title: "Improved Productivity",
+    title: "Build Credibility",
     shortText:
-      "A task management application provides a centralized platform to organize and track all your tasks in one place.",
+      "A modern, well-designed website establishes trust and positions your brand as an industry leader that customers can rely on.",
   },
   {
     id: "3",
     icon: "flaticon-check-mark",
-    title: "Reduced Stress",
+    title: "24/7 Availability",
     shortText:
-      "A task management application provides a centralized platform to organize and track all your tasks in one place.",
+      "Your website works around the clock, showcasing your products and services to potential customers even while you sleep.",
   },
 ];
 
@@ -58,13 +58,10 @@ const AppBenefits: React.FC = () => {
                 data-aos-once="false"
               >
                 <h2 className="text-[28px] md:text-[36px] leading-[36px] md:leading-[45px] mb-[20px]">
-                  Task by task, step by step, success is within reach
+                  Why Choose a Professional Website for Your Business
                 </h2>
                 <p>
-                  A task management application provides a centralized platform
-                  to organize and track all your tasks in one place. It helps
-                  you prioritize, categorize, and allocate resources
-                  efficiently, ensuring nothing falls through the cracks.
+                  In today&apos;s digital world, your website is often the first impression customers have of your business. A professionally designed website not only looks great but drives real results—from increased visibility to higher conversion rates and stronger customer relationships.
                 </p>
               </div>
 
@@ -104,7 +101,7 @@ const AppBenefits: React.FC = () => {
                   href="#"
                   className="py-[15px] px-[30px] inline-block rounded-[6px] bg-primary-color text-white font-semibold text-[16px] md:text-[18px] transition duration-500 ease-in-out hover:bg-black-color"
                 >
-                  Get Started 7 Days Free Trial
+                  Request a Quote
                 </Link>
               </div>
             </div>

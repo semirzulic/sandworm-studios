@@ -10,23 +10,23 @@ const featuresData = [
   {
     id: "1",
     icon: "flaticon-cloud-computing",
-    title: "Free Download App",
+    title: "Fast Turnaround",
     shortText:
-      "Just log in with your mail account from play store and using whatever you want for your business purpose.",
+      "We deliver high-quality websites on time, every time. Our streamlined process ensures your project launches when you need it.",
   },
   {
     id: "2",
     icon: "flaticon-translation",
-    title: "Trusted and Reliable",
+    title: "Ongoing Support",
     shortText:
-      "Just log in with your mail account from play store and using whatever you want for your business purpose.",
+      "Your success is our priority. We provide continuous maintenance, updates, and technical support to keep your site running smoothly.",
   },
   {
     id: "3",
     icon: "flaticon-cloud",
-    title: "Cloud Storage",
+    title: "Scalable Solutions",
     shortText:
-      "Just log in with your mail account from play store and using whatever you want for your business purpose.",
+      "Built to grow with your business. Our websites are designed with scalability in mind, ready to expand as your needs evolve.",
   },
 ];
 
@@ -44,13 +44,10 @@ const AboutApp: React.FC = () => {
                 data-aos-once="false"
               >
                 <h2 className="text-[28px] md:text-[36px] leading-[36px] md:leading-[45px] mb-[20px]">
-                  Empower your productivity, embrace effective task management
+                  Building Digital Experiences That Transform Businesses
                 </h2>
                 <p>
-                  A task management application provides a centralized platform
-                  to organize and track all your tasks in one place. It helps
-                  you prioritize, categorize, and allocate resources
-                  efficiently, ensuring nothing falls through the cracks.
+                  We&apos;re a team of passionate web developers and designers dedicated to creating exceptional digital experiences. With years of expertise in modern web technologies, we transform your ideas into powerful, user-friendly websites that drive real business results.
                 </p>
               </div>
 
@@ -91,14 +88,14 @@ const AboutApp: React.FC = () => {
                   href="#"
                   className="py-[15px] px-[30px] inline-block rounded-[6px] bg-primary-color text-white font-semibold text-[16px] md:text-[18px] transition duration-500 ease-in-out hover:bg-black-color"
                 >
-                  Get Started 7 Days Free Trial
+                  Get a Free Consultation
                 </Link>
 
                 <Link
                   href="#features"
                   className="inline-block text-black-color font-semibold text-[16px] md:text-[18px] underline  underline-offset-1 transition duration-500 ease-in-out hover:text-primary-color"
                 >
-                  See All Features
+                  View Our Portfolio
                 </Link>
               </div>
             </div>

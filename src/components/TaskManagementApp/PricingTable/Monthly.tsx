@@ -17,15 +17,15 @@ const Monthly: React.FC = () => {
           <div className="grid gap-[25px] items-center grid-cols-1 md:grid-cols-1 lg:grid-cols-3">
             <div className="group border-2 border-[#F9F3EF] rounded-[20px] bg-white relative overflow-hidden p-[30px] md:p-[60px] lg:p-[30px] xl:p-[40px] 2xl:p-[60px] space-y-[30px] md:space-y-[40px] lg:space-y-[40px] xl:space-y-[50px] transition duration-500 ease-in-out hover:border-[#0A65FC]">
               <div>
-                <h3 className="text-[28px] leading-[45px]">Basic</h3>
-                <p>Core task management features for single users</p>
+                <h3 className="text-[28px] leading-[45px]">Starter</h3>
+                <p>Perfect for small businesses and personal brands</p>
               </div>
 
               <div>
                 <h2 className="text-primary-color text-[32px] leading-[0] mb-[25px]">
-                  Free{" "}
+                  $999{" "}
                   <span className="text-[15px] text-[#384179] font-normal">
-                    /Forever
+                    /One-time
                   </span>
                 </h2>
                 <Link
@@ -38,29 +38,29 @@ const Monthly: React.FC = () => {
 
               <div>
                 <h4 className="text-[18px] font-semibold mb-[15px]">
-                  Task management with:
+                  Package includes:
                 </h4>
 
                 <ul className="space-y-[10px]">
                   <li className="flex items-center space-x-[10px] rtl:space-x-reverse">
                     <i className="flaticon-check-mark"></i>
-                    <p>Up to 3 projects</p>
+                    <p>Up to 5 pages</p>
                   </li>
                   <li className="flex items-center space-x-[10px] rtl:space-x-reverse">
                     <i className="flaticon-check-mark"></i>
-                    <p>Unlimited project members</p>
+                    <p>Responsive design</p>
                   </li>
                   <li className="flex items-center space-x-[10px] rtl:space-x-reverse">
                     <i className="flaticon-check-mark"></i>
-                    <p>Customizable project boards</p>
+                    <p>Basic SEO optimization</p>
                   </li>
                   <li className="flex items-center space-x-[10px] rtl:space-x-reverse">
                     <i className="flaticon-check-mark"></i>
-                    <p>Community support</p>
+                    <p>Contact form integration</p>
                   </li>
                   <li className="flex items-center space-x-[10px] rtl:space-x-reverse">
                     <i className="flaticon-check-mark"></i>
-                    <p>Multiple team members</p>
+                    <p>30 days support</p>
                   </li>
                 </ul>
               </div>
@@ -72,15 +72,15 @@ const Monthly: React.FC = () => {
                   Popular
                 </div>
 
-                <h3 className="text-[28px] leading-[45px]">Pro</h3>
-                <p>Simple, collaborative task management for teams</p>
+                <h3 className="text-[28px] leading-[45px]">Professional</h3>
+                <p>Ideal for growing businesses with advanced needs</p>
               </div>
 
               <div>
                 <h2 className="text-primary-color text-[32px] leading-[0] mb-[25px]">
-                  $9.99{" "}
+                  $2,499{" "}
                   <span className="text-[15px] text-[#384179] font-normal">
-                    /Month
+                    /One-time
                   </span>
                 </h2>
                 <Link
@@ -93,41 +93,41 @@ const Monthly: React.FC = () => {
 
               <div>
                 <h4 className="text-[18px] font-semibold mb-[15px]">
-                  Task management with:
+                  Package includes:
                 </h4>
 
                 <ul className="space-y-[10px]">
                   <li className="flex items-center space-x-[10px] rtl:space-x-reverse">
                     <i className="flaticon-check-mark"></i>
-                    <p>Up to 3 projects</p>
+                    <p>Up to 15 pages</p>
                   </li>
                   <li className="flex items-center space-x-[10px] rtl:space-x-reverse">
                     <i className="flaticon-check-mark"></i>
-                    <p>Unlimited project members</p>
+                    <p>Custom design & branding</p>
                   </li>
                   <li className="flex items-center space-x-[10px] rtl:space-x-reverse">
                     <i className="flaticon-check-mark"></i>
-                    <p>Customizable project boards</p>
+                    <p>Advanced SEO optimization</p>
                   </li>
                   <li className="flex items-center space-x-[10px] rtl:space-x-reverse">
                     <i className="flaticon-check-mark"></i>
-                    <p>Community support</p>
+                    <p>CMS integration</p>
                   </li>
                   <li className="flex items-center space-x-[10px] rtl:space-x-reverse">
                     <i className="flaticon-check-mark"></i>
-                    <p>Multiple team members</p>
+                    <p>E-commerce functionality</p>
                   </li>
                   <li className="flex items-center space-x-[10px] rtl:space-x-reverse">
                     <i className="flaticon-check-mark"></i>
-                    <p>Private projects</p>
+                    <p>Analytics integration</p>
                   </li>
                   <li className="flex items-center space-x-[10px] rtl:space-x-reverse">
                     <i className="flaticon-check-mark"></i>
-                    <p>Statistics and reports</p>
+                    <p>Performance optimization</p>
                   </li>
                   <li className="flex items-center space-x-[10px] rtl:space-x-reverse">
                     <i className="flaticon-check-mark"></i>
-                    <p>Priority email & phone support</p>
+                    <p>90 days priority support</p>
                   </li>
                 </ul>
               </div>
@@ -135,15 +135,15 @@ const Monthly: React.FC = () => {
 
             <div className="group border-2 border-[#F9F3EF] rounded-[20px] bg-white relative overflow-hidden p-[30px] md:p-[60px] lg:p-[30px] xl:p-[40px] 2xl:p-[60px] space-y-[30px] md:space-y-[40px] lg:space-y-[40px] xl:space-y-[50px] transition duration-500 ease-in-out hover:border-[#0A65FC]">
               <div>
-                <h3 className="text-[28px] leading-[45px]">Business</h3>
-                <p>Extended collaboration features for larger teams</p>
+                <h3 className="text-[28px] leading-[45px]">Enterprise</h3>
+                <p>Complete solution for large-scale web applications</p>
               </div>
 
               <div>
                 <h2 className="text-primary-color text-[32px] leading-[0] mb-[25px]">
-                  $14.99{" "}
+                  $5,999{" "}
                   <span className="text-[15px] text-[#384179] font-normal">
-                    /Month
+                    /One-time
                   </span>
                 </h2>
                 <Link
@@ -156,29 +156,29 @@ const Monthly: React.FC = () => {
 
               <div>
                 <h4 className="text-[18px] font-semibold mb-[15px]">
-                  Task management with:
+                  Package includes:
                 </h4>
 
                 <ul className="space-y-[10px]">
                   <li className="flex items-center space-x-[10px] rtl:space-x-reverse">
                     <i className="flaticon-check-mark"></i>
-                    <p>Up to 3 projects</p>
+                    <p>Unlimited pages</p>
                   </li>
                   <li className="flex items-center space-x-[10px] rtl:space-x-reverse">
                     <i className="flaticon-check-mark"></i>
-                    <p>Unlimited project members</p>
+                    <p>Full custom web application</p>
                   </li>
                   <li className="flex items-center space-x-[10px] rtl:space-x-reverse">
                     <i className="flaticon-check-mark"></i>
-                    <p>Customizable project boards</p>
+                    <p>Advanced features & APIs</p>
                   </li>
                   <li className="flex items-center space-x-[10px] rtl:space-x-reverse">
                     <i className="flaticon-check-mark"></i>
-                    <p>Community support</p>
+                    <p>Database architecture</p>
                   </li>
                   <li className="flex items-center space-x-[10px] rtl:space-x-reverse">
                     <i className="flaticon-check-mark"></i>
-                    <p>Multiple team members</p>
+                    <p>Dedicated project manager</p>
                   </li>
                 </ul>
               </div>

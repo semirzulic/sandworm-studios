@@ -5,34 +5,55 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import Image from "next/image";
 
+import taskManagementApp from "/public/images/demos/task-management-app.jpg";
+import moneyTransferApp from "/public/images/demos/money-transfer-app.jpg";
+import expenseTrackerApp from "/public/images/demos/expense-tracker-app.jpg";
+import gameApp from "/public/images/demos/game-app.jpg";
+import saasApp from "/public/images/demos/saas-app.jpg";
+import onlineBankingApp from "/public/images/demos/online-banking-app.jpg";
+
 const screenData = [
   {
     id: "1",
-    image: "/images/task-management-app/screen1.png", // Recommended image size 234x480
+    image: taskManagementApp,
+    title: "Task Management App",
   },
   {
     id: "2",
-    image: "/images/task-management-app/screen2.png", // Recommended image size 234x480
+    image: saasApp,
+    title: "SaaS Application",
   },
   {
     id: "3",
-    image: "/images/task-management-app/screen3.png", // Recommended image size 234x480
+    image: moneyTransferApp,
+    title: "Money Transfer App",
   },
   {
     id: "4",
-    image: "/images/task-management-app/screen4.png", // Recommended image size 234x480
+    image: gameApp,
+    title: "Gaming Platform",
   },
   {
     id: "5",
-    image: "/images/task-management-app/screen5.png", // Recommended image size 234x480
+    image: expenseTrackerApp,
+    title: "Expense Tracker",
   },
   {
     id: "6",
-    image: "/images/task-management-app/screen2.png", // Recommended image size 234x480
+    image: onlineBankingApp,
+    title: "Online Banking",
   },
 ];
 
 const AppScreens: React.FC = () => {
+  const handleDemoClick = () => {
+    // Trigger the demos button click
+    const demosButton = document.querySelector('[data-demos-trigger]') as HTMLButtonElement;
+    if (demosButton) {
+      demosButton.click();
+    }
+  };
+
   return (
     <>
       <div id="screens" className="pt-[50px] md:pt-[80px] lg:pt-[100px] xl:pt-[120px] relative before:content-[''] before:bg-[#F9F3EF] before:absolute before:bottom-0 before:left-0 before:w-full before:h-[35%]">
@@ -45,11 +66,10 @@ const AppScreens: React.FC = () => {
             data-aos-once="false"
           >
             <h6 className="text-primary-color uppercase text-[16px] md:text-[18px] font-medium mb-[5px]">
-              app screens
+              Our Portfolio
             </h6>
             <h2 className="text-[28px] md:text-[36px] leading-[36px] md:leading-[45px]">
-              A great Task Management App is the ability to customize your
-              workflow
+              Explore Our Diverse Range of Website Designs and Applications
             </h2>
           </div>
 
@@ -92,13 +112,26 @@ const AppScreens: React.FC = () => {
               {screenData &&
                 screenData.map((value, i) => (
                   <SwiperSlide key={i} className="text-center">
-                    <Image
-                      src={value.image}
-                      alt="Screen"
-                      width={234}
-                      height={480}
-                      className="inline-block"
-                    />
+                    <div 
+                      onClick={handleDemoClick}
+                      className="cursor-pointer group"
+                    >
+                      <div className="relative overflow-hidden rounded-lg shadow-lg transition-transform duration-300 group-hover:scale-105">
+                        <Image
+                          src={value.image}
+                          alt={value.title}
+                          className="inline-block w-full h-auto"
+                        />
+                        <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition-all duration-300 flex items-center justify-center">
+                          <span className="text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            View Demo
+                          </span>
+                        </div>
+                      </div>
+                      <h4 className="mt-[15px] text-[16px] font-medium group-hover:text-primary-color transition-colors">
+                        {value.title}
+                      </h4>
+                    </div>
                   </SwiperSlide>
                 ))}
             </Swiper>

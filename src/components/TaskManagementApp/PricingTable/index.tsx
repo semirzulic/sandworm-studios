@@ -27,7 +27,7 @@ const PricingTable: React.FC = () => {
               Pricing table
             </h6>
             <h2 className="text-[28px] md:text-[36px] leading-[36px] md:leading-[45px]">
-              What does your team need? Choose your Taran plan.
+              Choose the Perfect Package for Your Website Project
             </h2>
           </div>
 

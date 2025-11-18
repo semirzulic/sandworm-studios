@@ -21,9 +21,9 @@ const mukta = Mukta({
 
 export const metadata = {
   title:
-    "Plama - App Landing Tailwind Nextjs Template",
+    "Professional Website Development Services | Custom Web Design & Development",
   description:
-    "App Landing Tailwind Nextjs Templatee",
+    "Transform your vision into stunning websites. We create custom, responsive websites and web applications that drive results. Expert web design and development services.",
 };
 
 export default function RootLayout({

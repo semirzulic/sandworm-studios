@@ -26,52 +26,47 @@ const AppDownload: React.FC = () => {
                 data-aos-once="false"
               >
                 <h6 className="text-white uppercase text-[16px] md:text-[18px] font-medium mb-[10px]">
-                  Download app
+                  Ready to Get Started?
                 </h6>
 
                 <h2 className="text-white text-[28px] md:text-[36px] leading-[36px] md:leading-[45px] mb-[20px]">
-                  Let&rsquo;s get Free download From Apple and Play Store
+                  Let&rsquo;s Build Something Amazing Together
                 </h2>
 
                 <p className="text-white">
-                  A task management application provides a centralized platform
-                  to organize and track all your tasks in one place. It helps
-                  you prioritize, categorize, and allocate resources
-                  efficiently, ensuring nothing falls through the cracks.
+                  Ready to take your online presence to the next level? Whether you need a brand new website or want to revamp your existing one, we&apos;re here to help. Get in touch today for a free consultation and let&apos;s discuss how we can bring your vision to life.
                 </p>
 
                 <div className="mt-[30px] md:mt-[50px] space-x-[15px] md:space-x-[30px] rtl:space-x-reverse space-y-[15px] sm:space-y-[0]">
                   <a
-                    href="https://www.apple.com/store"
-                    target="_blank"
+                    href="#contact"
                     className="inline-block"
                   >
-                    <div className="flex items-center space-x-[10px] rtl:space-x-reverse bg-[#262A37] py-[10px] px-[34px] rounded-full transition duration-500 ease-in-out hover:bg-[#000]">
-                      <i className="flaticon-apple text-white text-[28px]"></i>
+                    <div className="flex items-center space-x-[10px] rtl:space-x-reverse bg-[#fff] py-[15px] px-[40px] rounded-full transition duration-500 ease-in-out hover:bg-[#f0f0f0]">
+                      <i className="ri-mail-line text-[28px]"></i>
                       <div>
-                        <p className="text-white text-[12px] leading-none mb-[6px]">
-                          available on
+                        <p className="text-[12px] leading-none mb-[6px]">
+                          Get in touch
                         </p>
-                        <h4 className="text-white text-[15px] font-medium leading-none">
-                          Apple Store
+                        <h4 className="text-[15px] font-medium leading-none">
+                          Contact Us
                         </h4>
                       </div>
                     </div>
                   </a>
 
                   <a
-                    href="https://play.google.com/store/games"
-                    target="_blank"
+                    href="#pricing"
                     className="inline-block"
                   >
-                    <div className="flex items-center space-x-[10px] rtl:space-x-reverse bg-[#fff] py-[10px] px-[34px] rounded-full transition duration-500 ease-in-out hover:bg-[#f9e3e3]">
-                      <i className="flaticon-play-store text-[28px]"></i>
+                    <div className="flex items-center space-x-[10px] rtl:space-x-reverse bg-[#262A37] py-[15px] px-[40px] rounded-full transition duration-500 ease-in-out hover:bg-[#000]">
+                      <i className="ri-price-tag-3-line text-white text-[28px]"></i>
                       <div>
-                        <p className="text-[12px] leading-none mb-[6px]">
-                          available on
+                        <p className="text-white text-[12px] leading-none mb-[6px]">
+                          View our
                         </p>
-                        <h4 className="text-[15px] font-medium leading-none">
-                          Google Play
+                        <h4 className="text-white text-[15px] font-medium leading-none">
+                          Pricing Plans
                         </h4>
                       </div>
                     </div>

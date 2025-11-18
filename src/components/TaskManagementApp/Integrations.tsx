@@ -10,16 +10,16 @@ const benefitsData = [
   {
     id: "1",
     icon: "flaticon-check-mark",
-    title: "Cloud Storage Integration",
+    title: "Modern Tech Stack",
     shortText:
-      "A task management application provides a centralized platform to organize and track all your tasks in one place.",
+      "We build with cutting-edge technologies like React, Next.js, Vue, and Node.js to ensure your website is fast, scalable, and future-proof.",
   },
   {
     id: "2",
     icon: "flaticon-check-mark",
-    title: "Automation and Workflow Integration",
+    title: "Platform Integration",
     shortText:
-      "A task management application provides a centralized platform to organize and track all your tasks in one place.",
+      "Seamlessly connect with payment gateways, CRMs, email marketing tools, analytics platforms, and any third-party service your business needs.",
   },
 ];
 
@@ -51,16 +51,13 @@ const Integrations: React.FC = () => {
                 data-aos-once="false"
               >
                 <h6 className="text-primary-color uppercase text-[16px] md:text-[18px] font-medium mb-[5px]">
-                  integrations
+                  Technologies & Tools
                 </h6>
                 <h2 className="text-[28px] md:text-[36px] leading-[36px] md:leading-[45px] mb-[20px]">
-                  Seamlessly integrate all your tools under the ClickUp umbrella
+                  Built with Modern Technologies That Power Your Success
                 </h2>
                 <p>
-                  A task management application provides a centralized platform
-                  to organize and track all your tasks in one place. It helps
-                  you prioritize, categorize, and allocate resources
-                  efficiently, ensuring nothing falls through the cracks.
+                  We leverage the latest web technologies and frameworks to build high-performance websites. From React and Next.js to WordPress and Shopify, we choose the right tools for your specific needs, ensuring seamless integration with your existing business systems.
                 </p>
               </div>
 
@@ -100,7 +97,7 @@ const Integrations: React.FC = () => {
                   href="#"
                   className="py-[15px] px-[30px] inline-block rounded-[6px] bg-primary-color text-white font-semibold text-[16px] md:text-[18px] transition duration-500 ease-in-out hover:bg-black-color"
                 >
-                  Get Started
+                  View Technologies
                 </Link>
               </div>
             </div>

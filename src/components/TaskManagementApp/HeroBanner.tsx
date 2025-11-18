@@ -36,8 +36,7 @@ const HeroBanner: React.FC = () => {
                   data-aos-duration="600"
                   data-aos-once="true"
                 >
-                  Unlock your full potential, organize your tasks, live your
-                  life
+                  Transform Your Vision Into Stunning Websites That Drive Results
                 </h1>
 
                 <p
@@ -47,10 +46,7 @@ const HeroBanner: React.FC = () => {
                   data-aos-duration="600"
                   data-aos-once="true"
                 >
-                  A task management application provides a centralized platform
-                  to organize and track all your tasks in one place. It helps
-                  you prioritize, categorize, and allocate resources
-                  efficiently, ensuring nothing falls through the cracks.
+                  We craft custom, responsive websites that elevate your brand and engage your audience. From sleek landing pages to complex web applications, we bring your ideas to life with modern design and cutting-edge technology.
                 </p>
               </div>
 
@@ -65,7 +61,7 @@ const HeroBanner: React.FC = () => {
                   href="#"
                   className="py-[15px] px-[30px] inline-block rounded-[6px] bg-primary-color text-white font-semibold text-[16px] md:text-[18px] transition duration-500 ease-in-out hover:bg-black-color"
                 >
-                  Get Started Free
+                  Start Your Project
                 </Link>
 
                 <div
@@ -76,7 +72,7 @@ const HeroBanner: React.FC = () => {
                     <i className="flaticon-play-button"></i>
                   </div>
                   <p className="font-semibold text-[16px] md:text-[18px]">
-                    How It Work
+                    View Our Work
                   </p>
                 </div>
               </div>
@@ -114,7 +110,7 @@ const HeroBanner: React.FC = () => {
                     <i className="ri-star-fill"></i>
                     <i className="ri-star-fill"></i>
                   </div>
-                  <p className="text-[15px] text-[#666]">Review 4.8/5.0</p>
+                  <p className="text-[15px] text-[#666]">Rated 4.8/5.0 by clients</p>
                 </div>
               </div>
             </div>

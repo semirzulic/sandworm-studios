@@ -22,6 +22,7 @@ export default function DemosSidebar() {
         className="py-[12px] md:py-[15px] px-[12px] md:px-[15px] inline-block rounded-l-[6px] bg-[#d1032a] text-white font-semibold text-[14px] md:text-[18px] leading-none fixed top-[200px] right-0 z-[999999] transition duration-500 ease-in-out hover:bg-[#bb0124]"
         onClick={() => setOpen(true)}
         ref={cancelButtonRef}
+        data-demos-trigger
       >
         D<br/>e<br/>m<br/>o<br/>s
       </button>
@@ -53,7 +54,7 @@ export default function DemosSidebar() {
               >
                 <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-white text-left rtl:text-right shadow-xl transition-all sm:my-8 sm:w-full md:max-w-[730px] lg:max-w-[1000px] xl:max-w-[1300px]">
                   <div className="bg-gray-50 px-4 py-3 sm:px-6 flex items-center justify-between">
-                    <h1 className="text-[20px] md:text-[25px]">Click to view the demos</h1>
+                    <h1 className="text-[20px] md:text-[25px]">Our Portfolio - Click to Explore Live Demos</h1>
                     <div>
                       <button
                         type="button"
